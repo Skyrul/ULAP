@@ -1,0 +1,10 @@
+div.upload-info { float:left; width:300px; }
+div.upload-info > .progress { height: 8px; width:100%; margin-bottom:0; }
+div.upload-info-filename { width: 100%; }
+
+a.remove-file{ cursor:pointer; }
+a.remove-file:hover{ text-decoration:none; }
+
+div.preview-image {  width:60px; float:left; }
+
+div.selected-file { margin-top:10px; }

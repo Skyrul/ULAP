@@ -1,0 +1,22 @@
+<div class="modal fade">
+	<div class="modal-dialog" style="width:750px;">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<h4 class="modal-title blue"><i class="fa fa-building"></i> Add Office - <span class="red">Step 1</span></h4>
+			</div>
+			
+			<div class="modal-body">
+				<?php 
+					$this->renderPartial('ajax_form', array(
+						'model'=>$model,
+					));
+				?>
+			</div>
+			
+			<div class="modal-footer hide"></div>
+		</div>
+	</div>
+</div>

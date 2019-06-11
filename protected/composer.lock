@@ -1,0 +1,184 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "29ab5483b6635d74379f748614873ade",
+    "content-hash": "9aa4afbbec22100a3fb6a744b7ff5d4b",
+    "packages": [
+        {
+            "name": "marcelog/pagi",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marcelog/PAGI.git",
+                "reference": "3293664da3265808fa3915ecda3ba1cf98ea12a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marcelog/PAGI/zipball/3293664da3265808fa3915ecda3ba1cf98ea12a3",
+                "reference": "3293664da3265808fa3915ecda3ba1cf98ea12a3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "psr/log": ">= 1.0.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "evert/phpdoc-md": "~0.1.1",
+                "monolog/monolog": "1.*",
+                "phing/phing": "2.*",
+                "phpdocumentor/phpdocumentor": "2.*",
+                "phpmd/phpmd": "2.*",
+                "phpunit/phpunit": "4.*",
+                "satooshi/php-coveralls": "0.*",
+                "sebastian/phpcpd": "*",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PAGI\\": "src/PAGI"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Marcelo Gornstein",
+                    "email": "marcelog@gmail.com",
+                    "homepage": "http://marcelog.github.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Asterisk Gateway Interface (AGI) client for PHP, suitable to make telephony applications using call flow nodes",
+            "homepage": "http://marcelog.github.com/PAGI",
+            "keywords": [
+                "agi",
+                "asterisk",
+                "call",
+                "client",
+                "flow",
+                "ivr",
+                "node",
+                "telephony",
+                "voip"
+            ],
+            "time": "2016-01-03 21:43:58"
+        },
+        {
+            "name": "marcelog/pami",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marcelog/PAMI.git",
+                "reference": "41bcb7d9a2a168543de17b60c0795f8b8fe3c805"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marcelog/PAMI/zipball/41bcb7d9a2a168543de17b60c0795f8b8fe3c805",
+                "reference": "41bcb7d9a2a168543de17b60c0795f8b8fe3c805",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "psr/log": ">= 1.0.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "evert/phpdoc-md": "~0.1.1",
+                "marcelog/pagi": "2.*",
+                "monolog/monolog": "1.*",
+                "phing/phing": "2.*",
+                "phpdocumentor/phpdocumentor": "2.*",
+                "phpmd/phpmd": "2.*",
+                "phpunit/phpunit": "4.*",
+                "satooshi/php-coveralls": "0.*",
+                "sebastian/phpcpd": "*",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PAMI\\": "src/PAMI"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "Marcelo Gornstein",
+                    "email": "marcelog@gmail.com",
+                    "homepage": "http://marcelog.github.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Asterisk Manager Interface (AMI) client for PHP, event driven, object oriented",
+            "homepage": "http://marcelog.github.com/PAMI",
+            "keywords": [
+                "action",
+                "ami",
+                "asterisk",
+                "client",
+                "event",
+                "manager",
+                "monitor",
+                "telephony",
+                "voip"
+            ],
+            "time": "2016-01-09 17:13:33"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

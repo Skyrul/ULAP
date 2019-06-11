@@ -1,0 +1,2 @@
+<span class="label <?php echo $callTypeClass; ?> arrowed-in-right">CALL TYPE: <?php echo $callType; ?></span>
+<span class="label label-default arrowed">SKILL: <?php echo strtoupper($list->skill->skill_name); ?></span>

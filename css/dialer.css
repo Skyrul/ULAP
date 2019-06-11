@@ -1,0 +1,242 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+		
+.profile-info-name { width:150px !important; }
+
+p
+{
+	margin: 0;
+	padding: 0 0 10px 0;
+	line-height: 25px;
+}
+.span4
+{
+	width: 80px;
+	float: left;
+	margin: 0 8px 10px 8px;
+}
+
+.phone
+{
+	margin-top: 15px;
+	background: #fff;
+}
+.tel
+{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border: 1px solid #9e9e9e;
+	border-radius: 0px;
+}
+.num-pad
+{
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+
+.num
+{
+	border: 1px solid #9e9e9e;
+	-webkit-border-radius: 999px;
+	border-radius: 999px;
+	-moz-border-radius: 999px;
+	height: 80px;
+	background-color: #fff;
+	color: #333;
+	cursor: pointer;
+}
+.num:hover
+{
+	background-color: #9e9e9e;
+	color: #fff;
+	transition-property: background-color .2s linear 0s;
+	-moz-transition: background-color .2s linear 0s;
+	-webkit-transition: background-color .2s linear 0s;
+	-o-transition: background-color .2s linear 0s;
+}
+.txt
+{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 25px;
+	font-family: "Lato" , sans-serif;
+	line-height: 20px;
+	color: #333;
+}
+.small
+{
+	font-size: 15px;
+}
+
+.btn
+{
+	font-weight: bold;
+	-webkit-transition: .1s ease-in background-color;
+	-webkit-font-smoothing: antialiased;
+	letter-spacing: 1px;
+}
+.btn:hover
+{
+	transition-property: background-color .2s linear 0s;
+	-moz-transition: background-color .2s linear 0s;
+	-webkit-transition: background-color .2s linear 0s;
+	-o-transition: background-color .2s linear 0s;
+}
+.spanicons
+{
+	width: 72px;
+	float: left;
+	text-align: center;
+	margin-top: 40px;
+	color: #9e9e9e;
+	font-size: 30px;
+	cursor: pointer;
+}
+.spanicons:hover
+{
+	color: #3498db;
+	transition-property: color .2s linear 0s;
+	-moz-transition: color .2s linear 0s;
+	-webkit-transition: color .2s linear 0s;
+	-o-transition: color .2s linear 0s;
+}
+
+
+
+.next-lead-btn{
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	text-transform: uppercase;	
+	cursor:pointer;
+	position: absolute;
+	right: -5px; top: -5px;
+	z-index: 2;
+	width: 90px;
+	height: 90px;
+	background: #B74635;
+	-moz-border-radius: 0 0 0 90px;
+	-webkit-border-radius: 0 0 0 90px;
+	border-radius: 0 0 0 90px;
+}
+.next-lead-btn span {
+	color: #fff;
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 30px;
+	position: absolute;
+	right: -16px;
+	text-align: center;
+	text-transform: uppercase;
+	top: 22px;
+	transform: rotate(45deg);
+	width: 100px;
+}
+
+.next-lead-btn:hover{
+	background: #D15B47;
+}
+
+.next-lead-btn-disabled{
+	background: #888888;
+}
+
+.next-lead-btn-disabled:hover{
+	background: #888888;
+}
+
+.btn-circle {
+	width: 60px !important;
+	height: 30px !important;
+	text-align: center !important;
+	padding: 0 !important;
+	font-size: 13px !important;
+	border-radius: 15px !important; 
+}
+
+
+.close-map { 
+	margin-left:8px;
+	margin-top:-3px;
+}
+
+.dispo-select{ max-width:100%; }
+
+
+
+.spinner-up, .spinner-down{ 
+	font-size: 10px !important;
+	height: 16px !important;
+	line-height: 8px !important;
+	margin-left: 0 !important;
+	padding: 0 !important;
+	width: 22px !important;
+}
+
+.row{ margin:3px 0; }
+
+.external-event:hover{
+	background-color: #5B5B5B;
+}
+
+
+.dropdown-submenu {
+	position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+	margin-left: -1px;
+	-webkit-border-radius: 0 6px 6px 6px;
+	-moz-border-radius: 0 6px 6px;
+	border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover >.dropdown-menu {
+	display: block;
+}
+
+.dropdown-submenu > div:after {
+	display: block;
+	content: " ";
+	float: right;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #ccc;
+	margin-top: 5px;
+	margin-right: -10px;
+}
+
+.dropdown-submenu.pull-left {
+	float: none;
+}
+
+.dropdown-submenu.pull-left >.dropdown-menu {
+	left: -100%;
+	margin-left: 10px;
+	-webkit-border-radius: 6px 0 6px 6px;
+	-moz-border-radius: 6px 0 6px 6px;
+	border-radius: 6px 0 6px 6px;
+}
+
+.dropdown-menu div {
+	text-align:center;
+}
+
+.dropdown-menu div span { 
+	padding: 0 10px;
+}
+
+.dropdown-menu div span:hover { 
+	cursor:pointer;
+	color:#FFFFFF;
+	background-color:#4F99C6;
+}
+
+.num-pad span.small p{ font-size:15px !important; }

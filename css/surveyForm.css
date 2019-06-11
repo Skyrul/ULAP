@@ -1,0 +1,13 @@
+div#viewSurveyForm span label{
+	display:inline-block;
+}
+
+div#viewSurveyForm div > label {
+	font-size:14px;
+	
+}
+
+div#viewSurveyForm div.form input{
+	font-size:12px;
+}
+

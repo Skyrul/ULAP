@@ -1,0 +1,90 @@
+
+.tree .tree-item, .tree .tree-branch {
+    border: 1px solid #FFF;
+}
+.tree .tree-branch, .tree .tree-item {
+    position: relative;
+    list-style: none;
+}
+
+.tree .tree-branch {
+    width: auto;
+    min-height: 20px;
+    cursor: pointer;
+}
+
+.tree .tree-item, .tree .tree-branch .tree-branch-header {
+    margin: 0;
+    padding: 5px;
+    color: #4D6878;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.tree .tree-branch .tree-branch-header {
+    border-radius: 0;
+}
+
+.tree .tree-branch .tree-branch-header {
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+}
+
+.tree .tree-branch .tree-branch-header .tree-branch-name, .tree .tree-item .tree-item-name {
+    display: inline;
+    z-index: 2;
+}
+
+.tree .tree-branch-name, .tree .tree-item-name {
+    cursor: pointer;
+}
+
+.tree .tree-plus.ace-icon:first-child, .tree .tree-minus.ace-icon:first-child {
+    display: inline-block;
+    font-style: normal;
+    border: 1px solid #DDD;
+    vertical-align: middle;
+    height: 11px;
+    width: 11px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    text-align: center;
+    border: 1px solid #8BAEBF;
+    line-height: 10px;
+    background-color: #FFF;
+    position: relative;
+    z-index: 2;
+}
+
+.tree .tree-branch:before, .tree .tree-item:before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -13px;
+    width: 18px;
+    height: 0;
+    border-top: 1px dotted #67b2dd;
+    z-index: 1;
+}
+
+.tree .tree-branch .tree-branch-children:before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -14px;
+    bottom: 16px;
+    left: -14px;
+    border: 1px dotted #67b2dd;
+    border-width: 0 0 0 1px;
+}
+
+.tree .tree-branch .tree-branch-children {
+    margin: 0 0 0 23px;
+    padding: 0;
+    position: relative;
+}
